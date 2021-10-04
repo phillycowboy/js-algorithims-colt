@@ -9,3 +9,5 @@ const addUpTo = (n) => {
     }
     return total 
 }
+
+console.log(addUpTo(100))

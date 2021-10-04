@@ -1,6 +1,3 @@
-// let msg = "Hello there and welcome to the club!"
-
-// console.log(msg)
 
 
 // first way to write this function! 

@@ -2,7 +2,7 @@ console.log("Hello there!")
 
 const checkPailndrome = (string) => {
     // takes in the argument of a string
-    if(string === string.split('').reverse().join('')){
+    if(string.toLowerCase() === string.toLowerCase().split('').reverse().join('')){
         return true 
     }else {
         return false

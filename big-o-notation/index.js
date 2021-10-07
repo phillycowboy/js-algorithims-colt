@@ -78,3 +78,6 @@ console.log("contains average", containsAverage([1,2,3,4,5,6]))
 
 // SPACE COMPLEXIETY WITH BIG O -- 
 
+// -time complexity (how long our function will take to run)
+// -space complexity (how much memory our functio will use)
+

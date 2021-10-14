@@ -105,3 +105,8 @@ console.log(findSock(["belt", "blouse", "dress", "pants", "shirt", "shorts","soc
 // whats imporatnt to know is that logarithmic time IS MORE EFFCIENT than linear time. 
 // in math terms logarithimic time is really just log base 2 and that 2 comes from cut in half; cut in half part of the procedure. 
 
+
+// start with a review of the algo rithim for logarithmic time O(log n)
+
+// then move on to constant time O(1)
+

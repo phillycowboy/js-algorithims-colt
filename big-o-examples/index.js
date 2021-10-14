@@ -93,5 +93,15 @@ function findSock(sortedLaundry){
 console.log(findSock(["belt", "blouse", "dress", "pants", "shirt", "shorts","sock","underwear"]))
 
 
+// the algorithim we just came up with is an implementation of the binary search algorithim its a great algorithim to keep in mind to quickly find elements in a sorted array 
+// 
+// we can summarize the time complexity of alogrithim just like this: 
 
+
+// Given an input array of n elements, the worst case scenario the alogrithim would need to make log n iterations 
+// in Big O Notation we can express this as O(log n) which is also known as logarhitimic time 
+
+// while all this Big O Notation can look intimidating you truly dont need to know much about math to understand this. 
+// whats imporatnt to know is that logarithmic time IS MORE EFFCIENT than linear time. 
+// in math terms logarithimic time is really just log base 2 and that 2 comes from cut in half; cut in half part of the procedure. 
 

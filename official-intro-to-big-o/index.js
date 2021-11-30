@@ -32,3 +32,20 @@ function addUpToTwo(n){
 }
 // number of operations is eventually bounded by a multiple of n (ex: 10n)
 // at the end of the day its just going to be O(n) because it is everchanging -- linear 
+
+function countUpAndDown(n){
+    console.log("Going Up!")
+        for(let i = 0; i < n; i++){
+            console.log(i)
+        }
+        // as n grows so does the loop O(n)
+    console.log("%cAt the top!", 'background: #222; color: #bada55')
+    console.log("Going Down!")
+        for(let j = n - 1; j >= 0; j--){
+            console.log(j)
+        }
+        // as n grows so does the loop O(n)
+
+        // you might think that this will be 2(n)
+        // but we are looking at the bigger picture so we simplfy it to O(n)
+}

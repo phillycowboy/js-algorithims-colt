@@ -14,3 +14,21 @@
 // f(n) could be constant (f(n) = 1)
 // as n grows the runtime is constant 
 // f(n) could be something entirely different! 
+
+function addUpTo(n){
+    return n * (n + 1) / 2;
+}
+
+// always 3 operations so its constant
+// O(1)
+// as n grows it has no change/reflection in the runtime 
+
+function addUpToTwo(n){
+    let total = 0;
+    for(let i = 1; i <= n; i++){
+        total += i;
+    }
+    return total;
+}
+// number of operations is eventually bounded by a multiple of n (ex: 10n)
+// at the end of the day its just going to be O(n) because it is everchanging -- linear 

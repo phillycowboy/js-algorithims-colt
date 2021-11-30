@@ -48,4 +48,21 @@ function countUpAndDown(n){
 
         // you might think that this will be 2(n)
         // but we are looking at the bigger picture so we simplfy it to O(n)
+        // so on the graph in the video it is a straight line, meaning the the time never changes so n would grow with the input 
+}
+
+
+function printAllPairs(n){
+    for(let i = 0; i <= n; i++){
+        // O(n) as the input grows so does the loop
+        for(let j = 0; j <= n; j++){
+            console.log(i,j)
+        }
+        // O(n) as the input grows so does the loop
+    }
+    // you would think this would be O(2n)
+    // so it would simplfy to O(n)
+    // but since its nested it gives us a runtime of O(n * n) which gives us -- O(n^2)*squared*
+    // so as n grows, the runtime roughly grows at the rate of n squared
+    // this is an example of quadratic time, given n - if its 3 it will print out all pairs up to 3 - this is also a representaion of the runtime and how it is squared, or doubled. 
 }

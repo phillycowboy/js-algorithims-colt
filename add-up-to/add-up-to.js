@@ -28,3 +28,5 @@ let t4 = performance.now()
 console.log(`Time elapsed ${t4 - t3 /1000} seconds.`)
 // console.log(secondAddUpTo(100))
 
+
+// SAME SECTION AS TIMING OUR CODE! 
